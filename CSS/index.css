@@ -12,11 +12,14 @@
   font-display: swap;
   src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(https://fonts.gstatic.com/s/josefinsans/v13/Qw3aZQNVED7rKGKxtqIqX5EUDXx9.ttf) format('truetype');
 }
-.header-font {
+.primary-font {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.secondary-font {
   font-family: 'Amatic SC', sans-serif;
 }
-.body-font {
-  font-family: 'Josefin Sans', sans-serif;
+.test {
+  border: 1px solid red;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -151,17 +154,54 @@ table {
 }
 html,
 body {
-  margin: 0;
-  padding: 2%;
+  margin: 0 auto;
 }
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 62.5%;
-  line-height: 1.25rem;
 }
-h1,
-h2,
-h3 {
-  font-family: 'Amatic SC', sans-serif;
+body .content-container {
+  padding: 2%;
+}
+body h1,
+body h2,
+body h3 {
   font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 10px 0;
+}
+body p {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+header .top-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 5% 0;
+}
+header .top-bar img {
+  width: 50%;
+  max-width: 150px;
+}
+header .top-bar .logo-text {
+  font-size: 2rem;
+}
+header .top-bar .logo-text {
+  color: #222948;
+}
+header .top-bar .logo-first {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #44A406;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
 }
