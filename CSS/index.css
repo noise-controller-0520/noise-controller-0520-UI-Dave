@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v12/TUZyzwprpvBS1izr_vOECuSa.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(https://fonts.gstatic.com/s/josefinsans/v13/Qw3aZQNVED7rKGKxtqIqX5EUDXx9.ttf) format('truetype');
+}
+.primary-font {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.secondary-font {
+  font-family: 'Amatic SC', sans-serif;
+}
+.test {
+  border: 1px solid red;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0 auto;
+}
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 62.5%;
+}
+body .content-container {
+  padding: 2%;
+}
+body h1,
+body h2,
+body h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 10px 0;
+}
+body p {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+header .top-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 5% 0;
+}
+header .top-bar img {
+  width: 50%;
+  max-width: 150px;
+}
+header .top-bar .logo-text {
+  font-size: 2rem;
+}
+header .top-bar .logo-text {
+  color: #222948;
+}
+header .top-bar .logo-first {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #44A406;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
