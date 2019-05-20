@@ -1,25 +1,15 @@
-@import './variables';
-@import './mixins';
+// Var & Mixins
+@import 'variables.less';
+@import 'mixins.less';
+
+// General Styles
+@import 'reset.less';
+@import 'global.less';
+
+// Components
+@import "footer.less";
+@import "home-page.less";
+@import "about-page.less";
 
 
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0; 
-  padding: 0;
-}
-
-body {
-  .body-font;
-  font-size: 62.5%;
-  line-height: 1.25rem;
-
-}
-
-h1, h2, h3 {
-  .header-font;
-  font-size: 2rem;
-}
-   
+  
