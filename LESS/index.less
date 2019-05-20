@@ -1,6 +1,6 @@
 @import './variables';
 @import './mixins';
-@import url('https://fonts.googleapis.com/css?family=Francois+One|Open+Sans&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -12,16 +12,14 @@ html, body {
 }
 
 body {
-  // .flex(none, center, column);
-  background-color: @color-white;
-  color: @color-black;
-  // font-family: 'PT Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 2.5rem;
+  .body-font;
+  font-size: 62.5%;
+  line-height: 1.25rem;
+
 }
 
 h1, h2, h3 {
-  font-family: 'Francoise-One', sans-serif;
-  font-size: 3rem;
+  .header-font;
+  font-size: 2rem;
 }
    
