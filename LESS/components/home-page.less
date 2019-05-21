@@ -1,21 +1,64 @@
 @import '../variables.less';
 @import '../mixins.less';
 
+
 .content-container {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 auto;
+    @media @desktop {
+        max-width: 900px;
+    }
+
+    .top-flex {
+
+        @media @desktop {
+            display: flex;
+        }
+
+        .top-img {
+            background-image: url("../assets/quiet-student-large.jpg");
+            background-position:center center;
+            background-repeat: no-repeat;
+            margin-top: 5%;
+            width: 100%;
+            height: 350px;
+            display: none;
+            @media @desktop {
+                align-self: center;
+                display: block;
+                height: 350px;
+                width: 45%;
+                max-width: 800px;
+                border-radius: 15px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        
+        }
+
+    }
+
+
 
     .content-top {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        @media @desktop {
+            flex-direction: column;
+            width: 50%;
+            }
+        }
         
         h2 {
             text-align: center;
             padding: 0;
             margin: 0;
             .larger-top-space;
+            @media @desktop {
+                margin: 0;
+            }
         }
 
 
@@ -30,7 +73,6 @@
         h2 {
             text-align: center;
             padding: 0;
-            // margin-top: 20%;
             .larger-top-space;
         }   
 
@@ -79,6 +121,4 @@
 
     }
 
-
-} 
  

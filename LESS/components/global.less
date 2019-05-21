@@ -12,12 +12,11 @@
   body {
     .primary-font;
     font-size: 62.5%;
-
-    .content-container {
-      padding: 0 2%;
-      }
-
-
+    @media @desktop {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
     h1, h2, h3 {
       font-size: 2rem;
       line-height: 2.5rem;
