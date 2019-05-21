@@ -21,6 +21,12 @@
 .test {
   border: 1px solid red;
 }
+.larger-top-space {
+  margin-top: 10%;
+}
+.smaller-top-space {
+  margin-top: 5%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -161,7 +167,7 @@ body {
   font-size: 62.5%;
 }
 body .content-container {
-  padding: 2%;
+  padding: 0 2%;
 }
 body h1,
 body h2,
@@ -174,6 +180,22 @@ body p {
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
+body .cta-btn {
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 10%;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 25px;
+  background-color: #44A406;
+  color: #ffffff;
+}
+body .cta-btn:hover,
+body .cta-btna:active {
+  background-color: #222948;
+}
 header {
   display: flex;
   justify-content: center;
@@ -183,7 +205,7 @@ header .top-bar {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 5% 0;
+  margin-top: 5%;
 }
 header .top-bar img {
   width: 50%;
@@ -201,7 +223,78 @@ header .top-bar .logo-first {
   font-weight: 600;
   color: #44A406;
 }
+header .top-bar .header-img {
+  width: 100%;
+  height: 350px;
+  background-image: url("../assets/quiet-student-large.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 4%;
+  background-color: #222948;
+  color: #ffffff;
+}
+footer p,
+footer a {
+  font-size: 1rem;
+}
+footer a {
+  color: #ffffff;
+}
 .content-container {
   display: flex;
   flex-direction: column;
+  margin: 0;
+}
+.content-container .content-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-container .content-top h2 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 10%;
+}
+.content-container .content-main {
+  display: flex;
+  flex-direction: column;
+}
+.content-container .content-main h2 {
+  text-align: center;
+  padding: 0;
+  margin-top: 10%;
+}
+.content-container .content-main h3 {
+  text-align: center;
+}
+.content-container .content-main .features {
+  padding: 0 2%;
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-container .content-main .features img {
+  max-width: 150px;
+  width: 50%;
+}
+.content-container .content-main .features p {
+  padding: 0 2%;
+  margin-bottom: 10%;
+}
+.content-container .content-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15%;
+}
+.content-container .content-bottom h2 {
+  text-align: center;
 }

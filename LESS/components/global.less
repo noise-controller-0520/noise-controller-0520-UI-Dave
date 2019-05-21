@@ -1,0 +1,54 @@
+@import '../variables.less';
+@import '../mixins.less';
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0 auto; 
+  }
+  
+  body {
+    .primary-font;
+    font-size: 62.5%;
+
+    .content-container {
+      padding: 0 2%;
+      }
+
+
+    h1, h2, h3 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+    }
+
+    .cta-btn {
+      text-decoration: none;
+      font-size: 1.25rem;
+      text-align: center;
+      padding: 20px 20px;
+      margin-top: 10%;
+      width: 90%;
+      max-width: 500px;
+      border-radius: 25px;
+      background-color: #44A406;
+      color: #ffffff;
+  }
+
+    .cta-btn:hover, .cta-btna:active {
+      background-color: @secondary-color;
+    }
+
+  
+  }
+  
+
+
+     
