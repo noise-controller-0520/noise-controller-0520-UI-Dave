@@ -315,6 +315,16 @@ footer a:active {
     color: #222948;
   }
 }
+footer a:hover,
+footer a:active {
+  color: #44A406;
+}
+@media (min-width: 1000px) {
+  footer a:hover,
+  footer a:active {
+    color: #44A406;
+  }
+}
 .content-container {
   display: flex;
   flex-direction: column;
