@@ -1,0 +1,9 @@
+
+
+
+small (phones) - min-width: 500px
+medium (tablets) - min-width: 800px
+large (desktops) - min-width: 1000px
+
+
+npx less-watch-compiler LESS CSS index.less

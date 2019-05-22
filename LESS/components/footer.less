@@ -1,0 +1,35 @@
+@import '../variables.less';
+@import '../mixins.less';
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 4%;
+    background-color: @secondary-color;
+    color: @background-color;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 600;
+    @media @desktop {
+        color: @secondary-color;
+        background-color: @background-color;
+    }
+    
+    p, a {
+        font-size: 1.75rem;
+        width: 50%;
+    }
+
+    a, a:hover, a:active {
+        text-decoration: none;
+        color: @background-color;
+        text-align: right;
+        @media @desktop {
+            color: @secondary-color;
+        }
+    }
+
+    
+
+} 
