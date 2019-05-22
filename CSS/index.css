@@ -343,16 +343,6 @@ footer a:active {
     color: #222948;
   }
 }
-footer a:hover,
-footer a:active {
-  color: #44A406;
-}
-@media (min-width: 1000px) {
-  footer a:hover,
-  footer a:active {
-    color: #44A406;
-  }
-}
 .content-container {
   display: flex;
   flex-direction: column;
@@ -489,7 +479,7 @@ footer a:active {
   }
 }
 .content-top-about {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 10%;
   display: flex;
   flex-direction: column;
@@ -501,13 +491,24 @@ footer a:active {
     margin-bottom: 5%;
   }
 }
+.content-top-about h2 {
+  text-align: center;
+}
 .content-top-about nav {
   margin-top: 5%;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 500px) {
+  .content-top-about nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 .content-top-about nav div {
+  cursor: pointer;
   text-align: center;
   width: 100%;
   padding: 1% 0;
@@ -518,6 +519,8 @@ footer a:active {
   background-color: #222948;
   color: #ffffff;
   transition: background-color 0.35s;
+  margin: 1% 0;
+  width: 90%;
 }
 .content-top-about nav div:hover,
 .content-top-about nav div:active {
@@ -527,15 +530,22 @@ footer a:active {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
 .content-main-about figure {
-  width: 40%;
+  width: 80%;
   margin: 3%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media (min-width: 500px) {
+  .content-main-about figure {
+    width: 40%;
+  }
+}
 @media (min-width: 1000px) {
   .content-main-about figure {
-    width: 30%;
+    width: 35%;
   }
 }
 .content-main-about figure img {
