@@ -2,14 +2,16 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us</title>
-  <!-- <link rel="icon" href="./favicon.ico"> -->
   <link rel="apple-touch-icon" sizes="180x180" href="">
   <link rel="icon" type="image/png" sizes="32x32" href="">
   <link rel="icon" type="image/png" sizes="16x16" href="">
-  <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
+  <script src="/JavaScript/Tabs.js" async></script>
 </head>
 
 <body>
@@ -24,19 +26,20 @@
 
   </header>
 
-  <section class="content-top content-top-about">
-    <h2>Meet the Development Team</h2>
+  <section class="content-top content-top-about tabs">
+    <h2 class="title">Meet the Development Team</h2>
     <nav>
-      <div>Team<br>Leader</div>
-      <div>Back<br>End</div>
-      <div>Front<br>End</div>
-      <div>User<br>Interface</div>
+      <div class="tab active-tab" data-tab="All">All</div>
+      <div class="tab" data-tab="Team Leader">Team Leader</div>
+      <div class="tab" data-tab="Back End">Back End</div>
+      <div class="tab" data-tab="Front End">Front End</div>
+      <div class="tab" data-tab="User Interface">User Interface</div>
     </nav>
   </section>
 
   <main class="content-main-about">
 
-    <figure class="dev-team">
+    <figure class="dev-team card" data-tab="Team Leader">
       <img alt="Daniel Weinman" src="https://avatars0.githubusercontent.com/u/3112234?s=400&v=4">
       <figcaption>
         <div class="cap-left">
@@ -47,7 +50,7 @@
       </figcaption>
     </figure>
 
-    <figure class="dev-team">
+    <figure class="dev-team card" data-tab="Back End">
       <img alt="James Pak" src="https://avatars3.githubusercontent.com/u/48695262?s=460&v=4">
       <figcaption>
         <div class="cap-left">
@@ -58,7 +61,7 @@
       </figcaption>
     </figure>
 
-    <figure class="dev-team">
+    <figure class="dev-team card" data-tab="Front End">
       <img alt="Josh Gorton" src="https://avatars0.githubusercontent.com/u/46949726?s=460&v=4">
       <figcaption>
         <div class="cap-left">
@@ -69,7 +72,7 @@
       </figcaption>
     </figure>
 
-    <figure class="dev-team">
+    <figure class="dev-team card" data-tab="User Interface">
       <img alt="Devin Warrick" src="https://avatars3.githubusercontent.com/u/49497246?s=460&v=4">
       <figcaption>
         <div class="cap-left">
@@ -80,7 +83,7 @@
       </figcaption>
     </figure>
 
-    <figure class="dev-team">
+    <figure class="dev-team card" data-tab="User Interface">
       <img alt="Dave Irwin" src="https://avatars3.githubusercontent.com/u/6611769?s=460&v=4">
       <figcaption>
         <div class="cap-left">

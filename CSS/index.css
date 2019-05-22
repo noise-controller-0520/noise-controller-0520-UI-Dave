@@ -307,6 +307,7 @@ footer a:active {
   text-decoration: none;
   color: #ffffff;
   text-align: right;
+  padding-right: 5%;
 }
 @media (min-width: 1000px) {
   footer a,
