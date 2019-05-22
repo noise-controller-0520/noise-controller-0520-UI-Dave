@@ -5,16 +5,29 @@
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 2% 4%;
+    align-items: center;
+    padding: 1% 4%;
     background-color: @secondary-color;
     color: @background-color;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 600;
+    @media @desktop {
+        color: @secondary-color;
+        background-color: @background-color;
+    }
     
     p, a {
-        font-size: 1rem;
+        font-size: 1.75rem;
+        width: 50%;
     }
 
-    a {
-        // text-decoration: none;
+    a, a:hover, a:active {
+        text-decoration: none;
         color: @background-color;
+        text-align: right;
+        @media @desktop {
+            color: @secondary-color;
+        }
     }
-}
+
+} 

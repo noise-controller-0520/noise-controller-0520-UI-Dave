@@ -12,20 +12,33 @@
   body {
     .primary-font;
     font-size: 62.5%;
-    @media @desktop {
-      max-width: 900px;
-      margin: 0 auto;
-    }
+    width: 100%;
+    max-width: 1300px;
     
     h1, h2, h3 {
       font-size: 2rem;
       line-height: 2.5rem;
       margin: 10px 0;
+      @media @desktop {
+        font-size: 2.5rem;
+        line-height: 3rem;
+      }
     }
 
     p {
-      font-size: 1.25rem;
-      line-height: 1.5rem;
+      font-size: 1.5rem;
+      line-height: 1.75rem;
+      padding: 4%;
+      @media @desktop {
+        padding: 0;
+      }
+    }
+
+    .noisy {
+      font-family: 'Amatic SC', sans-serif;
+      font-weight: 600;
+      color: @primary-color;
+      font-size: 2.5rem;
     }
 
     .cta-btn {
@@ -33,12 +46,16 @@
       font-size: 1.25rem;
       text-align: center;
       padding: 20px 20px;
-      margin-top: 10%;
+      margin-top: 5%;
       width: 90%;
       max-width: 500px;
-      border-radius: 25px;
+      border-radius: 50px;
       background-color: #44A406;
       color: #ffffff;
+      @media @desktop {
+        font-size: 1.75rem;
+        margin-top: 10%;
+      }
   }
 
     .cta-btn:hover, .cta-btna:active {
