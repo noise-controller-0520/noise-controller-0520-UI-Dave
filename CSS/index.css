@@ -226,6 +226,11 @@ header {
   display: flex;
   justify-content: center;
 }
+@media (min-width: 1000px) {
+  header {
+    padding: 0 5%;
+  }
+}
 header a {
   text-decoration: none;
 }
@@ -269,6 +274,24 @@ header .top-bar .logo-first {
 @media (min-width: 1000px) {
   header .top-bar .logo-first {
     font-size: 3.25rem;
+  }
+}
+header .top-bar .nav-container {
+  margin-top: 5%;
+  font-size: 1rem;
+}
+@media (min-width: 1000px) {
+  header .top-bar .nav-container {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.25rem;
+    margin-top: 0;
+    width: 100%;
+  }
+  header .top-bar .nav-container .nav-items {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 header .top-bar .header-img {
@@ -334,6 +357,11 @@ footer a:active {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+}
+@media (min-width: 1000px) {
+  .content-container {
+    padding: 0 5%;
+  }
 }
 @media (min-width: 1000px) {
   .content-container .top-flex {

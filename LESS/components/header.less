@@ -3,6 +3,9 @@
 header {
     display: flex;
     justify-content: center;
+    @media @desktop {
+        padding: 0 5%;
+    }
 
     a {
         text-decoration: none;
@@ -43,6 +46,25 @@ header {
             font-size: 2.25rem;
             @media @desktop {
                 font-size: 3.25rem;
+            }
+        }
+
+        .nav-container {
+            margin-top: 5%;
+            font-size: 1rem;
+            // .test;
+            @media @desktop {
+                display: flex;
+                justify-content: flex-end;
+                font-size: 1.25rem; 
+                margin-top: 0;
+                width: 100%;
+                .nav-items {
+                    // .test;
+                    width: 25%;
+                    display: flex;
+                    justify-content: space-between;
+                }
             }
         }
 
