@@ -226,6 +226,9 @@ header {
   display: flex;
   justify-content: center;
 }
+header a {
+  text-decoration: none;
+}
 header .top-bar {
   display: flex;
   flex-direction: column;
@@ -239,6 +242,7 @@ header .top-bar {
   }
 }
 header .top-bar img {
+  cursor: pointer;
   width: 50%;
   max-width: 150px;
 }
@@ -513,21 +517,34 @@ footer a:active {
 .content-main-about figure figcaption {
   display: flex;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   padding: 4%;
   max-width: 400px;
 }
 .content-main-about figure figcaption .title {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .content-main-about figure figcaption a {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #44A406;
   transition: color 0.25s;
 }
 .content-main-about figure figcaption a:hover,
 .content-main-about figure figcaption a:active {
   color: #222948;
+}
+@media (min-width: 1000px) {
+  .content-main-about figure figcaption {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .content-main-about figure figcaption .title {
+    font-size: 1.25rem;
+  }
+  .content-main-about figure figcaption a {
+    font-size: 2.75rem;
+  }
 }
 .content-bottom-about {
   margin-top: 10%;
