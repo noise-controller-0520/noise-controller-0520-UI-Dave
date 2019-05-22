@@ -60,7 +60,7 @@ class TabLink {
     }
     selectCard() {
       // Update style of this.cardElement to display = "flex".
-      this.cardElement.style.display = 'flex';
+      this.cardElement.style.display = 'block';
     }
   }
   
