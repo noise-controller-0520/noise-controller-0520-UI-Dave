@@ -226,6 +226,14 @@ header {
   display: flex;
   justify-content: center;
 }
+@media (min-width: 1000px) {
+  header {
+    padding: 0 5%;
+  }
+}
+header a {
+  text-decoration: none;
+}
 header .top-bar {
   display: flex;
   flex-direction: column;
@@ -239,6 +247,7 @@ header .top-bar {
   }
 }
 header .top-bar img {
+  cursor: pointer;
   width: 50%;
   max-width: 150px;
 }
@@ -265,6 +274,24 @@ header .top-bar .logo-first {
 @media (min-width: 1000px) {
   header .top-bar .logo-first {
     font-size: 3.25rem;
+  }
+}
+header .top-bar .nav-container {
+  margin-top: 5%;
+  font-size: 1rem;
+}
+@media (min-width: 1000px) {
+  header .top-bar .nav-container {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.25rem;
+    margin-top: 0;
+    width: 100%;
+  }
+  header .top-bar .nav-container .nav-items {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 header .top-bar .header-img {
@@ -299,7 +326,7 @@ footer {
 footer p,
 footer a {
   font-size: 1.75rem;
-  width: 50%;
+  width: 180px%;
 }
 footer a,
 footer a:hover,
@@ -307,6 +334,7 @@ footer a:active {
   text-decoration: none;
   color: #ffffff;
   text-align: right;
+  padding-right: 5%;
 }
 @media (min-width: 1000px) {
   footer a,
@@ -319,6 +347,11 @@ footer a:active {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+}
+@media (min-width: 1000px) {
+  .content-container {
+    padding: 0 5%;
+  }
 }
 @media (min-width: 1000px) {
   .content-container .top-flex {
@@ -390,12 +423,11 @@ footer a:active {
   display: flex;
   flex-direction: column;
 }
-.content-main h3 {
-  text-align: center;
-}
 .content-main .features {
-  padding: 0;
-  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 3%;
+  width: 90%;
+  margin: 0 auto;
   margin-top: 5%;
   display: flex;
   flex-direction: column;
@@ -404,11 +436,26 @@ footer a:active {
 @media (min-width: 1000px) {
   .content-main .features {
     align-items: flex-start;
+    border-radius: 15px;
   }
 }
 .content-main .features img {
   max-width: 150px;
   width: 50%;
+}
+.content-main .features h3 {
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 5% 0;
+}
+@media (min-width: 1000px) {
+  .content-main .features h3 {
+    margin: 10% 0;
+  }
+}
+.content-main .features p {
+  line-height: 2rem;
 }
 @media (min-width: 1000px) {
   .content-main {
@@ -422,9 +469,6 @@ footer a:active {
   .content-main .features img {
     max-width: 200px;
     align-self: center;
-  }
-  .content-main .features h3 {
-    text-align: left;
   }
 }
 .content-bottom {
@@ -446,7 +490,7 @@ footer a:active {
   }
 }
 .content-top-about {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 10%;
   display: flex;
   flex-direction: column;
@@ -458,13 +502,24 @@ footer a:active {
     margin-bottom: 5%;
   }
 }
+.content-top-about h2 {
+  text-align: center;
+}
 .content-top-about nav {
   margin-top: 5%;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 500px) {
+  .content-top-about nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 .content-top-about nav div {
+  cursor: pointer;
   text-align: center;
   width: 100%;
   padding: 1% 0;
@@ -475,6 +530,8 @@ footer a:active {
   background-color: #222948;
   color: #ffffff;
   transition: background-color 0.35s;
+  margin: 1% 0;
+  width: 90%;
 }
 .content-top-about nav div:hover,
 .content-top-about nav div:active {
@@ -484,15 +541,22 @@ footer a:active {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
 .content-main-about figure {
-  width: 40%;
+  width: 80%;
   margin: 3%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media (min-width: 500px) {
+  .content-main-about figure {
+    width: 40%;
+  }
+}
 @media (min-width: 1000px) {
   .content-main-about figure {
-    width: 30%;
+    width: 35%;
   }
 }
 .content-main-about figure img {
@@ -502,21 +566,34 @@ footer a:active {
 .content-main-about figure figcaption {
   display: flex;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   padding: 4%;
   max-width: 400px;
 }
 .content-main-about figure figcaption .title {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .content-main-about figure figcaption a {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #44A406;
   transition: color 0.25s;
 }
 .content-main-about figure figcaption a:hover,
 .content-main-about figure figcaption a:active {
   color: #222948;
+}
+@media (min-width: 1000px) {
+  .content-main-about figure figcaption {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .content-main-about figure figcaption .title {
+    font-size: 1.25rem;
+  }
+  .content-main-about figure figcaption a {
+    font-size: 2.75rem;
+  }
 }
 .content-bottom-about {
   margin-top: 10%;
