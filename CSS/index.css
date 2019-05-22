@@ -210,6 +210,7 @@ body .cta-btn {
   border-radius: 50px;
   background-color: #44A406;
   color: #ffffff;
+  transition: background-color 0.35s;
 }
 @media (min-width: 1000px) {
   body .cta-btn {
@@ -443,4 +444,80 @@ footer a:active {
   .content-bottom .cta-btn {
     margin-top: 5%;
   }
+}
+.content-top-about {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 1000px) {
+  .content-top-about {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+.content-top-about nav {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.content-top-about nav div {
+  text-align: center;
+  width: 100%;
+  padding: 1% 0;
+  font-size: 1.5rem;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 600;
+  line-height: 2rem;
+  background-color: #222948;
+  color: #ffffff;
+  transition: background-color 0.35s;
+}
+.content-top-about nav div:hover,
+.content-top-about nav div:active {
+  background-color: #44A406;
+}
+.content-main-about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.content-main-about figure {
+  width: 40%;
+  margin: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (min-width: 1000px) {
+  .content-main-about figure {
+    width: 30%;
+  }
+}
+.content-main-about figure img {
+  width: 100%;
+  max-width: 400px;
+}
+.content-main-about figure figcaption {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 4%;
+  max-width: 400px;
+}
+.content-main-about figure figcaption .title {
+  font-size: 1.25rem;
+}
+.content-main-about figure figcaption a {
+  font-size: 2.75rem;
+  color: #44A406;
+  transition: color 0.25s;
+}
+.content-main-about figure figcaption a:hover,
+.content-main-about figure figcaption a:active {
+  color: #222948;
+}
+.content-bottom-about {
+  margin-top: 10%;
 }
