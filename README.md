@@ -1,4 +1,4 @@
-### Noise Controller App Marketing Site
+# Noise Controller App Marketing Site
 
 This is a landing site built by Dave Irwin and currently [live here](https://noisecontroller.netlify.com/index.html). Its purpose is to promote the Noise Controller app built by Dave's Lambda School sprint team and to link to that site. As one of two User Interface developers building their own marketing sites, Dave built this site from scratch to represent his own skills while contributing to the overall project.
 
@@ -24,4 +24,4 @@ This site uses HTML5, CSS3, LESS, and JavaScript. The [About page](https://noise
 
 ## About the Noise Controller App
 
-The [Noise Controller App](https://noiselistener-app.netlify.com/) is intended for teachers of younger children who are looking for ways to keep the student noise level down in their classrooms. The app listens for and responds to noise levels with animal sounds and on-screen actions. If students are too loud, the animals may be scared away. The longer students can maintain a specified noise level, the more animals they can collect and interact with. Teachers can set the sensitivity level as needed, set up multiple classes if they teach several groups, and save status to pick up where the class left off previously.
+The [Noise Controller app](https://noiselistener-app.netlify.com/) is intended for teachers of younger children who are looking for ways to keep the student noise level down in their classrooms. The app listens for and responds to noise levels with animal sounds and on-screen actions. If students are too loud, the animals may be scared away. The longer students can maintain a specified noise level, the more animals they can collect and interact with. Teachers can set the sensitivity level as needed, set up multiple classes if they teach several groups, and save status to pick up where the class left off previously.
