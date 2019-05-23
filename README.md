@@ -1,6 +1,6 @@
 # About the Noise Controller App
 
-Noise Controller is intended for teachers of younger children who are looking for ways to keep the student noise level down in their classrooms. The app listens for and responds to noise levels with animal sounds and on-screen actions. If students are too loud, the animals may be scared away. The longer students can maintain a specified noise level, the more animals they can collect and interact with. Teachers can set the sensitivity level as needed, set up multiple classes if they teach several groups, and save status to pick up where the class left off previously.
+The [Noise Controller App](https://noiselistener-app.netlify.com/) is intended for teachers of younger children who are looking for ways to keep the student noise level down in their classrooms. The app listens for and responds to noise levels with animal sounds and on-screen actions. If students are too loud, the animals may be scared away. The longer students can maintain a specified noise level, the more animals they can collect and interact with. Teachers can set the sensitivity level as needed, set up multiple classes if they teach several groups, and save status to pick up where the class left off previously.
 
 ## About this Marketing Site
 
@@ -12,18 +12,16 @@ This site uses HTML5, CSS3, LESS, and JavaScript. The about page uses a JavaScri
 
 ## Noise Controller Team Members
 
-[Noise Listener App](https://noiselistener-app.netlify.com/)
+- Daniel Weinman, Team Leader: [GitHub](https://github.com/notontilt09)
 
-Daniel Weinman, Team Leader: [GitHub](https://github.com/notontilt09)
+- Josh Gorton, App Back End: [GitHub](https://github.com/jjgorton)
 
-Josh Gorton, App Back End: [GitHub](https://github.com/jjgorton)
+- James Pak, App Front End: [GitHub](https://github.com/jamesjpak)
 
-James Pak, App Front End: [GitHub](https://github.com/jamesjpak)
+- Devin Warrick, UI Developer:
+  [GitHub](https://github.com/DevWarr) |
+  [Devin's Marketing Site](https://thenoisecontroller.netlify.com/index.html)
 
-Devin Warrick, UI Developer:
-[GitHub](https://github.com/DevWarr) |
-[Devin's Marketing Site](https://thenoisecontroller.netlify.com/index.html)
-
-Dave Irwin, UI Developer:
-[GitHub](https://github.com/redirwin) |
-[This Marketing Site](https://noisecontroller.netlify.com/index.html)
+- Dave Irwin, UI Developer:
+  [GitHub](https://github.com/redirwin) |
+  [This Marketing Site](https://noisecontroller.netlify.com/index.html)
