@@ -8,7 +8,7 @@ This is one landing site built to market a front-end app created by our sprint t
 
 ## Technologies Used for This Marketing Site
 
-This site uses HTML5, CSS3, LESS, and JavaScript. The about page uses a JavaScript module I created to present only the team member cards matching the menu item choses. Git version control was used throughout the build.
+This site uses HTML5, CSS3, LESS, and JavaScript. The about page uses a JavaScript module I created to present only the team member cards matching the menu item selected. Git version control was used throughout the build.
 
 ## Noise Controller Team Members
 
