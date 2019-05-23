@@ -534,7 +534,8 @@ footer a:active {
   width: 90%;
 }
 .content-top-about nav div:hover,
-.content-top-about nav div:active {
+.content-top-about nav div:active,
+.content-top-about nav .active-tab {
   background-color: #44A406;
 }
 .content-main-about {
