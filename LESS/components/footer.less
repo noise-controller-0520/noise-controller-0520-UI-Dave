@@ -1,34 +1,52 @@
 @import '../variables.less';
 @import '../mixins.less';
 
-
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1% 4%;
-    background-color: @secondary-color;
-    color: @background-color;
-    font-family: 'Amatic SC', sans-serif;
-    font-weight: 600;
-    @media @desktop {
-        color: @secondary-color;
-        background-color: @background-color;
-    }
-    
-    p, a {
-        font-size: 1.75rem;
-        width: 180px%;
-    }
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1% 4%;
+	background-color: @secondary-color;
+	color: @background-color;
+	font-family: 'Amatic SC', sans-serif;
+	font-weight: 600;
+	@media @desktop {
+		color: @secondary-color;
+		background-color: @background-color;
+	}
 
-    a, a:hover, a:active {
-        text-decoration: none;
-        color: @background-color;
-        text-align: right;
-        padding-right: 5%;
-        @media @desktop {
-            color: @secondary-color;
-        }
-    }
+	p,
+	a {
+		// .test;
+		font-size: 1.75rem;
+	}
 
-} 
+	a {
+		width: 130px;
+		// text-align: right;
+	}
+
+	p {
+		width: 50%;
+		// align-self: left;
+		// text-align: justify;
+	}
+
+	.by-me {
+		// .test;
+		font-size: 1.25rem;
+	}
+
+	a,
+	a:hover,
+	a:active {
+		text-decoration: none;
+		color: @background-color;
+		text-align: right;
+		padding-right: 4%;
+		@media @desktop {
+			color: @secondary-color;
+			padding-right: 0;
+		}
+	}
+}
