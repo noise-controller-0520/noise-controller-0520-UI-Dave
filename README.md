@@ -6,27 +6,34 @@ Noise Controller is intended for teachers of younger children who are looking fo
 
 This is one landing site built to market a front-end app created by our sprint team at Lambda School. As one of two User Interface developers building their own marketing sites, I build this site from scratch to represent my own skills while contributing to the overall project.
 
-### Technologies Used for This Marketing Site
+## Technologies Used for This Marketing Site
 
 This site uses HTML5, CSS3, LESS, and JavaScript. The about page uses a JavaScript module I created to present only the team member cards matching the menu item choses. Git version control was used throughout the build.
 
 ## Noise Controller Team Members
 
+[Noise Listener App](https://noiselistener-app.netlify.com/)
+
 Daniel Weinman, Team Leader
+
 [GitHub](https://github.com/notontilt09)
 
 Josh Gorton, App Back End
+
 [GitHub](https://github.com/jjgorton)
-[Noise Listener App](https://noiselistener-app.netlify.com/)
 
 James Pak, App Front End
+
 [GitHub](https://github.com/jamesjpak)
-[Noise Listener App](https://noiselistener-app.netlify.com/)
 
 Devin Warrick, UI Developer
+
 [GitHub](https://github.com/DevWarr)
+
 [Devin's Marketing Site](https://thenoisecontroller.netlify.com/index.html)
 
 Dave Irwin, UI Developer
+
 [GitHub](https://github.com/redirwin)
+
 [This Marketing Site](https://noisecontroller.netlify.com/index.html)
