@@ -24,6 +24,6 @@ Devin Warrick, UI Developer:
 [GitHub](https://github.com/DevWarr) |
 [Devin's Marketing Site](https://thenoisecontroller.netlify.com/index.html)
 
-Dave Irwin, UI Developer
+Dave Irwin, UI Developer:
 [GitHub](https://github.com/redirwin) |
 [This Marketing Site](https://noisecontroller.netlify.com/index.html)
