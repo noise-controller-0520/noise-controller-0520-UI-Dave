@@ -2,123 +2,118 @@
 @import '../mixins.less';
 
 .content-top-about {
-    // .test;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-    @media @desktop {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
+	@media @desktop {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
 
-    h2 {
-        text-align: center;
-    }
+	h2 {
+		text-align: center;
+	}
 
-    nav {
-        margin-top: 5%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        @media @tablet {
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
+	nav {
+		margin-top: 5%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		@media @tablet {
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
 
- 
-        div {
-            cursor: pointer;
-            text-align: center;
-            width: 100%;
-            padding: 1% 0;
-            font-size: 1.5rem;
-            font-family: 'Amatic SC', sans-serif;
-            font-weight: 600;
-            line-height: 2rem;
-            background-color: @secondary-color;
-            color: #ffffff;
-            transition: background-color .35s;
-            margin: 1% 0;
-            width: 90%;
+		div {
+			cursor: pointer;
+			text-align: center;
+			width: 100%;
+			padding: 1% 0;
+			font-size: 1.5rem;
+			font-family: 'Amatic SC', sans-serif;
+			font-weight: 600;
+			line-height: 2rem;
+			background-color: @secondary-color;
+			color: #ffffff;
+			transition: background-color 0.35s;
+			margin: 1% 0;
+			width: 90%;
+		}
 
-        }
-
-        div:hover, div:active {
-            background-color: @primary-color;
-        }
-    }
+		div:hover,
+		div:active {
+			background-color: @primary-color;
+		}
+	}
 }
 
 .content-main-about {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
 
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 80%;
-    margin: 0 auto;
+	figure {
+		width: 80%;
+		margin: 3%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+			0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    
-    figure {
-        width: 80%;
-        margin: 3%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		@media @tablet {
+			width: 40%;
+		}
 
-        @media @tablet {
-            width: 40%;
-        }
+		@media @desktop {
+			width: 35%;
+		}
 
-        @media @desktop {
-            width: 35%;
-        }
+		img {
+			width: 100%;
+			max-width: 400px;
+		}
 
-        img {
-            width: 100%;
-            max-width: 400px;
-        }
+		figcaption {
+			display: flex;
+			justify-content: space-between;
+			font-size: 1.25rem;
+			line-height: 1.5rem;
+			padding: 4%;
+			max-width: 400px;
 
-        figcaption {
-            display: flex;
-            justify-content: space-between;
-            font-size: 1.25rem;
-            line-height: 1.5rem;
-            padding: 4%;
-            max-width: 400px;
+			.title {
+				font-size: 1rem;
+			}
 
+			a {
+				font-size: 2.5rem;
+				color: @primary-color;
+				transition: color 0.25s;
+			}
 
-            .title {
-                font-size: 1rem;
-            }
+			a:hover,
+			a:active {
+				color: @secondary-color;
+			}
 
-            a { 
-                font-size: 2.5rem;
-                color: @primary-color;
-                transition: color .25s;
-            }
-
-            a:hover, a:active {
-                color: @secondary-color;
-            }
-
-            @media @desktop {
-                font-size: 1.5rem;
-                line-height: 1.75rem;
-                .title {
-                    font-size: 1.25rem; 
-                }
-                a {
-                    font-size: 2.75rem;
-                }
-            }
-
-        }
-
-    }
+			@media @desktop {
+				font-size: 1.5rem;
+				line-height: 1.75rem;
+				.title {
+					font-size: 1.25rem;
+				}
+				a {
+					font-size: 2.75rem;
+				}
+			}
+		}
+	}
 }
 
 .content-bottom-about {
-    margin-top: 10%;
+	margin-top: 10%;
 }
