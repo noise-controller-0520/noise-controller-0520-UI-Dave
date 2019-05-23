@@ -326,7 +326,15 @@ footer {
 footer p,
 footer a {
   font-size: 1.75rem;
-  width: 180px%;
+}
+footer a {
+  width: 130px;
+}
+footer p {
+  width: 50%;
+}
+footer .by-me {
+  font-size: 1.25rem;
 }
 footer a,
 footer a:hover,
@@ -334,13 +342,14 @@ footer a:active {
   text-decoration: none;
   color: #ffffff;
   text-align: right;
-  padding-right: 5%;
+  padding-right: 4%;
 }
 @media (min-width: 1000px) {
   footer a,
   footer a:hover,
   footer a:active {
     color: #222948;
+    padding-right: 0;
   }
 }
 .content-container {
