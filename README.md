@@ -14,26 +14,16 @@ This site uses HTML5, CSS3, LESS, and JavaScript. The about page uses a JavaScri
 
 [Noise Listener App](https://noiselistener-app.netlify.com/)
 
-Daniel Weinman, Team Leader
+Daniel Weinman, Team Leader: [GitHub](https://github.com/notontilt09)
 
-[GitHub](https://github.com/notontilt09)
+Josh Gorton, App Back End: [GitHub](https://github.com/jjgorton)
 
-Josh Gorton, App Back End
+James Pak, App Front End: [GitHub](https://github.com/jamesjpak)
 
-[GitHub](https://github.com/jjgorton)
-
-James Pak, App Front End
-
-[GitHub](https://github.com/jamesjpak)
-
-Devin Warrick, UI Developer
-
-[GitHub](https://github.com/DevWarr)
-
+Devin Warrick, UI Developer:
+[GitHub](https://github.com/DevWarr) |
 [Devin's Marketing Site](https://thenoisecontroller.netlify.com/index.html)
 
 Dave Irwin, UI Developer
-
-[GitHub](https://github.com/redirwin)
-
+[GitHub](https://github.com/redirwin) |
 [This Marketing Site](https://noisecontroller.netlify.com/index.html)
