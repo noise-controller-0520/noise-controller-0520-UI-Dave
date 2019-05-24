@@ -1,6 +1,6 @@
-# Noise Controller App Marketing Site
+# Marketing Site for Noise Controller App
 
-This is a landing site built by Dave Irwin and currently [live here](https://noisecontroller.netlify.com/index.html). Its purpose is to promote the Noise Controller app built by Dave's Lambda School sprint team and to link to that site. As one of two User Interface developers building their own marketing sites, Dave built this site from scratch to represent his own skills while contributing to the overall project.
+This is a landing site built by Dave Irwin and currently [live here](https://noisecontroller.netlify.com/index.html). Its purpose is to promote the Noise Controller app built by Dave's Lambda School sprint team and link to the app. As one of two User Interface developers building their own marketing sites, Dave built this site from scratch to represent his own skills while contributing to the overall project.
 
 ## Technologies Used for This Marketing Site
 
